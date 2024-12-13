@@ -1,0 +1,45 @@
+.post {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: width 0.3s, height 0.3s;
+}
+.profile img:hover {
+    width: 60px;
+    height: 60px;
+}
+.profile-info {
+    margin-left: 10px;
+}
+.post-image {
+    width: 100%;
+    cursor: pointer;
+}
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.post-actions i {
+    font-size: 24px;
+    cursor: pointer;
+}
+.comments-section {
+    padding: 0 10px 10px;
+}
+.comment {
+    margin-top: 10px;
+}

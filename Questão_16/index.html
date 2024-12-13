@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Post Interface</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="post">
+        <div class="profile">
+            <img src="assets/avatar.png" alt="Profile Picture" class="profile-pic">
+            <div class="profile-info">
+                <strong>Maria</strong>
+            </div>
+        </div>
+        <img src="assets/img.png" alt="Post Image" class="post-image" id="postImage">
+        <div class="post-actions">
+            <div>
+                <i class="far fa-heart" id="likeIcon"></i>
+                <span id="likeCount">0</span>
+            </div>
+            <i class="far fa-comment" id="commentIcon"></i>
+            <i class="far fa-bookmark" id="saveIcon"></i>
+        </div>
+        <div class="comments-section">
+            <strong>Maria</strong> <span class="post-description">Foto na praia</span>
+            <div id="commentsContainer"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+.container { width: 80%; margin: 0 auto; text-align: center; } 
+.search { margin: 20px 0; } 
+.cards { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; } 
+.card { border: 1px solid #ccc; border-radius: 8px; padding: 16px; width: 200px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; } 
+.card img { max-width: 100%; height: auto; border-radius: 8px; }
